@@ -27,3 +27,7 @@ Wipe index: `DELETE http://localhost:9200/courses`. Shouldn't need to do that in
 http://localhost:9200/courses/_search?q=painting
 
 Now to connect the search results to a JSON custom field?
+
+## Notes
+
+See [Tanza's writeup](https://cca-dev.atlassian.net/wiki/spaces/CP/pages/165937154/NEW+Search+on+Portal+with+Search+UI) of the new Portal search UI which moves away from searchkit. We may want to stick with what's available in Invenio anyway but he thought a lot about react<->elasticsearch search options and provides a framework for us to use.
